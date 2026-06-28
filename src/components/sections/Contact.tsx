@@ -6,10 +6,10 @@ import { useRef, useState } from "react";
 import { Phone, Send, MapPin, Clock, Mail, CheckCircle } from "lucide-react";
 
 const contactInfo = [
-  { icon: Phone, label: "Telefon", value: "+998 90 123 45 67", href: "tel:+998901234567" },
-  { icon: Send, label: "Telegram", value: "@usta_xonasi", href: "https://t.me/usta_xonasi" },
+  { icon: Phone, label: "Telefon", value: "+998 90 630 40 08", href: "tel:+998906304008" },
+  { icon: Send, label: "Telegram", value: "@mahammadov_a", href: "https://t.me/mahammadov_a" },
   { icon: Mail, label: "Email", value: "info@ustaxonasi.uz", href: "mailto:info@ustaxonasi.uz" },
-  { icon: Clock, label: "Ish vaqti", value: "08:00 – 20:00, Har kuni", href: null },
+  { icon: Clock, label: "Ish vaqti", value: "08:00 – 20:00", href: null },
   { icon: MapPin, label: "Manzil", value: "Farg'ona viloyati, Oltiariq tumani", href: null },
 ];
 
@@ -93,13 +93,13 @@ export default function Contact() {
               className="rounded-2xl overflow-hidden h-72 border border-white/8"
             >
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24115.94!2d71.1151!3d40.8951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb857a7ef9dd0b%3A0x8de9879c32a8cba7!2sOltiariq%2C%20Fergana%20Region%2C%20Uzbekistan!5e0!3m2!1sen!2sus!4v1719475200000"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d767.5150391839468!2d71.50691426963022!3d40.399765998215145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDIzJzU5LjIiTiA3McKwMzAnMjcuMiJF!5e1!3m2!1suz!2sus!4v1782663725618!5m2!1suz!2sus"
                 width="100%"
                 height="100%"
-                style={{ border: 0, filter: "invert(90%) hue-rotate(180deg)" }}
+                style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
+                referrerPolicy="strict-origin-when-cross-origin"
                 title="Usta Xonasi location"
               />
             </motion.div>
@@ -145,7 +145,7 @@ export default function Contact() {
                       value={form.phone}
                       onChange={(e) => setForm({ ...form, phone: e.target.value })}
                       className="w-full bg-[#0B0B0D] border border-white/10 text-white placeholder-[#B5B5B5]/50 rounded-xl px-4 py-3.5 focus:outline-none focus:border-[#E53935]/50 transition-colors"
-                      placeholder="+998 90 123 45 67"
+                      placeholder="+998 90 630 40 08"
                     />
                   </div>
                   <div>
@@ -169,8 +169,8 @@ export default function Contact() {
 
                   <p className="text-xs text-[#B5B5B5] text-center">
                     Yoki to&apos;g&apos;ridan-to&apos;g&apos;ri{" "}
-                    <a href="tel:+998901234567" className="text-[#E53935] hover:underline font-semibold">
-                      +998 90 123 45 67
+                    <a href="tel:+998906304008" className="text-[#E53935] hover:underline font-semibold">
+                      +998 90 630 40 08
                     </a>{" "}
                     ga qo&apos;ng&apos;iroq qiling
                   </p>

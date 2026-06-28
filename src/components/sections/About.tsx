@@ -7,7 +7,7 @@ import { CheckCircle, Award, Users, Clock } from "lucide-react";
 
 const features = [
   { icon: Award, title: "Sertifikatlangan Ustalar", desc: "Barcha ustalarimiz xalqaro sertifikatlarga ega" },
-  { icon: Users, title: "Tajribali Jamoa", desc: "10+ yillik birgalikdagi ish tajribasi" },
+  { icon: Users, title: "Tajribali Jamoa", desc: "20+ yillik birgalikdagi ish tajribasi" },
   { icon: Clock, title: "24/7 Qo'llab-quvvatlash", desc: "Har qanday vaqtda sizga yordam beramiz" },
   { icon: CheckCircle, title: "Sifat Kafolati", desc: "Barcha xizmatlarimizga 6 oy kafolat beramiz" },
 ];
@@ -18,7 +18,6 @@ const checkpoints = [
   "Tezkor va sifatli xizmat ko'rsatish",
   "Shaffof narx siyosati",
   "Barcha marka va model furalar",
-  "Bepul dastlabki diagnostika",
 ];
 
 const fadeUp = {

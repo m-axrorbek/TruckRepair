@@ -12,13 +12,10 @@ const quickLinks = [
 ];
 
 const services = [
-  "Motor Remont",
   "Korobka Ta'mirlash",
   "Xodovoy",
   "Kompyuter Diagnostika",
   "Elektrik Tizimi",
-  "Shina Servis",
-  "Payvandlash",
   "Tormoz Tizimi",
 ];
 
@@ -49,7 +46,7 @@ export default function Footer() {
             {/* Social Links */}
             <div className="flex gap-3">
               {[
-                { icon: Send, href: "https://t.me/usta_xonasi", label: "Telegram" },
+                { icon: Send, href: "https://t.me/mahammadov_a", label: "Telegram" },
                 { icon: Video, href: "#", label: "YouTube" },
                 {
                   icon: () => (
@@ -122,14 +119,14 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <Phone className="w-4 h-4 text-[#E53935] mt-0.5 flex-shrink-0" />
-                <a href="tel:+998901234567" className="text-[#B5B5B5] hover:text-white text-sm transition-colors">
-                  +998 90 123 45 67
+                <a href="tel:+998906304008" className="text-[#B5B5B5] hover:text-white text-sm transition-colors">
+                  +998 90 630 40 08
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <Send className="w-4 h-4 text-[#E53935] mt-0.5 flex-shrink-0" />
-                <a href="https://t.me/usta_xonasi" className="text-[#B5B5B5] hover:text-white text-sm transition-colors">
-                  @usta_xonasi
+                <a href="https://t.me/mahammadov_a" className="text-[#B5B5B5] hover:text-white text-sm transition-colors">
+                  @mahammadov_a
                 </a>
               </li>
               <li className="flex items-start gap-3">

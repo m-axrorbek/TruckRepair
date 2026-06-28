@@ -7,12 +7,12 @@ import { Plus, Minus } from "lucide-react";
 
 const faqs = [
   {
-    q: "Motor remont qancha vaqt oladi?",
-    a: "Motor remont murakkabligiga qarab 3 kundan 2 haftagacha davom etishi mumkin. Biz har doim aniq muddatni belgilab, o'z vaqtida topshirishga harakat qilamiz. Diagnostika natijalariga qarab aniq muddat aytiladi.",
+    q: "Korobka remont qancha vaqt oladi?",
+    a: "Korobka remont murakkabligiga qarab 1.5 - 2 kun  davom etishi mumkin. Biz har doim aniq muddatni belgilab, o'z vaqtida topshirishga harakat qilamiz. Diagnostika natijalariga qarab aniq muddat aytiladi.",
   },
   {
     q: "Kafolat berasizmi?",
-    a: "Ha, barcha ta'mirlash ishlariga 6 oydan 1 yilgacha kafolat beramiz. Kafolat davomida biron-bir muammo yuzaga kelsa, bepul ta'mirlash xizmatini ko'rsatamiz.",
+    a: "Ha, barcha ta'mirlash ishlariga 8 oydan 1.5 yilgacha kafolat beramiz. Kafolat davomida biron-bir muammo yuzaga kelsa, bepul ta'mirlash xizmatini ko'rsatamiz.",
   },
   {
     q: "24/7 ishlaysis izmi?",
@@ -20,15 +20,15 @@ const faqs = [
   },
   {
     q: "Diagnostika narxi qancha?",
-    a: "Asosiy kompyuter diagnostika xizmati 200,000 so'mdan boshlanadi. Agar bizdagi ta'mirlash xizmatini tanlasangiz, diagnostika xarajati ta'mirlash narxiga qo'shiladi.",
+    a: "Asosiy kompyuter diagnostika xizmati ishiga qarab kelishiladi. Agar bizdagi ta'mirlash xizmatini tanlasangiz,ishimizga kafolat beramiz.",
   },
   {
     q: "Qanday marka furalar bilan ishlaysizlar?",
-    a: "Biz barcha Yevropa markalari bilan ishlashimiz: Mercedes-Benz, Volvo, Scania, MAN, DAF, Iveco, Renault. Shuningdek, Xitoy va Rossiya markali yuk mashinalari ham ta'mirlanadi.",
+    a: "Biz barcha Yevropa markalari bilan ishlashimiz: Mercedes-Benz, Volvo, Scania, MAN, DAF, Iveco. Shuningdek, Xitoy va Rossiya markali yuk mashinalari ham ta'mirlanadi.",
   },
   {
     q: "Ehtiyot qismlarni o'zlarimiz olib kelsak bo'ladimi?",
-    a: "Ha, albatta. O'z ehtiyot qismlaringizni olib kelishingiz mumkin. Lekin biz ham asl original va OEM ehtiyot qismlarini yetkazib beramiz va ular uchun qo'shimcha kafolat beramiz.",
+    a: "Ha, albatta. O'z ehtiyot qismlaringizni olib kelishingiz mumkin. Lekin biz ham asl original va OEM ehtiyot qismlarini qo'yib beramiz va ular uchun qo'shimcha kafolat beramiz.",
   },
   {
     q: "Qaerdasizlar va qanday etib boraman?",

@@ -10,8 +10,8 @@ const plans = [
     icon: Cpu,
     title: "Diagnostika",
     subtitle: "Kompyuter diagnostika",
-    price: "200 000",
-    unit: "so'm",
+    price: "Kelishiladi",
+    unit: "",
     features: ["Bortovoy kompyuter skaneri", "Xato kodlarini o'qish", "Texnik hisobot", "Maslahat xizmati"],
     featured: false,
     cta: "Buyurtma berish",
@@ -23,25 +23,25 @@ const plans = [
     price: "Kelishiladi",
     unit: "",
     features: ["To'liq diagnostika", "Ehtiyot qismlar", "Kapital ta'mirlash", "6 oy kafolat", "Bepul diagnostika"],
-    featured: true,
+    featured: false,
     cta: "Buyurtma berish",
   },
   {
     icon: Activity,
     title: "Xodovoy",
     subtitle: "Yurish qismi ta'mirlash",
-    price: "300 000",
-    unit: "dan",
+    price: "Kelishiladi",
+    unit: "",
     features: ["Amortizatorlar", "Rul mexanizmi", "Podshipniklar", "Shakvashak"],
-    featured: false,
+    featured: true,
     cta: "Buyurtma berish",
   },
   {
     icon: Zap,
     title: "Elektrik",
     subtitle: "Elektr tizimlari",
-    price: "150 000",
-    unit: "dan",
+    price: "Kelishiladi",
+    unit: "",
     features: ["Generator ta'mirlash", "Starter ta'mirlash", "Provodka", "Bortovoy kompyuter"],
     featured: false,
     cta: "Buyurtma berish",
@@ -135,7 +135,7 @@ export default function Pricing() {
 
               {/* CTA */}
               <motion.a
-                href="tel:+998901234567"
+                href="tel:+998906304008"
                 className={`flex items-center justify-center gap-2 py-3.5 rounded-xl font-bold text-sm transition-all duration-200 ${
                   plan.featured
                     ? "bg-white text-[#E53935] hover:bg-gray-100"
@@ -160,8 +160,8 @@ export default function Pricing() {
         >
           * Narxlar taxminiy bo&apos;lib, aniq narx diagnostika natijalari asosida belgilanadi.
           Bepul maslahat olish uchun{" "}
-          <a href="tel:+998901234567" className="text-[#E53935] hover:underline">
-            +998 90 123 45 67
+          <a href="tel:+998906304008" className="text-[#E53935] hover:underline">
+            +998 90 630 40 08
           </a>{" "}
           ga qo&apos;ng&apos;iroq qiling.
         </motion.p>

@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   description: "Professional truck repair and maintenance center. Engine, transmission, diagnostics, electrical, suspension and brake system services. Oltiariq, Farg'ona, Uzbekistan.",
   keywords: ["truck repair", "yuk mashinasi ta'mirlash", "usta xonasi", "truck service", "diagnostics", "engine repair"],
   icons: {
-    icon: "/logo.png",
-    apple: "/logo.png",
+    icon: "/logo-transparent.png",
+    apple: "/logo-transparent.png",
   },
   openGraph: {
     title: "Usta Xonasi — Professional Truck Service Center",

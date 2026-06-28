@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import { Phone, Send, Star, Truck, Wrench, Clock } from "lucide-react";
+import { Phone, Star, Truck, Wrench, Clock } from "lucide-react";
 import { useRef } from "react";
 import Image from "next/image";
 import AnimatedCounter from "@/components/shared/AnimatedCounter";
@@ -93,7 +93,7 @@ export default function Hero() {
             className="flex flex-wrap gap-4"
           >
             <motion.a
-              href="tel:+998901234567"
+              href="tel:+998906304008"
               className="flex items-center gap-2.5 bg-[#E53935] hover:bg-[#C62828] text-white px-7 py-4 rounded-xl font-bold text-base transition-colors duration-200 shadow-xl shadow-red-900/40"
               whileHover={{ scale: 1.03, y: -2 }}
               whileTap={{ scale: 0.97 }}
@@ -103,7 +103,7 @@ export default function Hero() {
             </motion.a>
 
             <motion.a
-              href="https://t.me/usta_xonasi"
+              href="https://t.me/mahammadov_a"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2.5 text-white px-7 py-4 rounded-xl font-bold text-base transition-colors duration-200 border border-white/15 hover:border-white/30 hover:bg-white/5"

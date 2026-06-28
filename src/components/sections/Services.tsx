@@ -10,7 +10,7 @@ const services = [
     icon: Settings,
     title: "Motor Remont",
     description: "Dvigatel ta'mirlash, kapital ta'mirlash, silindr bloklari, porshenlar va boshqa barcha motor tizimlarini xizmat ko'rsatish.",
-    tag: "Eng mashhur",
+    tag: null,
   },
   {
     icon: RotateCcw,
@@ -22,7 +22,7 @@ const services = [
     icon: Activity,
     title: "Xodovoy",
     description: "Yurish qismi va rame tizimi ta'mirlash. Amortizatorlar, rul mexanizmi va qo'shimcha tizimlar.",
-    tag: null,
+    tag: "Eng mashhur",
   },
   {
     icon: Cpu,

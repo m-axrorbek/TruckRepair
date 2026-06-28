@@ -115,7 +115,7 @@ export default function Process() {
           className="text-center mt-20"
         >
           <motion.a
-            href="tel:+998901234567"
+            href="tel:+998906304008"
             className="inline-flex items-center gap-3 bg-[#E53935] hover:bg-[#C62828] text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-200 shadow-xl shadow-red-900/30"
             whileHover={{ scale: 1.03, y: -2 }}
             whileTap={{ scale: 0.97 }}

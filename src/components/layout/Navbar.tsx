@@ -47,23 +47,18 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <motion.button
-              className="flex items-center gap-3"
+              className="flex items-center"
               onClick={() => handleNavClick("#home")}
               whileHover={{ scale: 1.02 }}
             >
               <Image
-                src="/logo.png"
+                src="/logo-transparent.png"
                 alt="Usta Xonasi logo"
-                width={44}
-                height={44}
-                className="object-contain"
+                width={144}
+                height={56}
+                className="h-12 w-auto object-contain"
                 priority
               />
-              <div className="leading-none">
-                <span className="text-white font-black text-xl tracking-tight">A</span>
-                <span className="text-[#E53935] font-black text-xl tracking-tight">T</span>
-                <span className="text-white font-black text-xl tracking-tight">S</span>
-              </div>
             </motion.button>
 
             {/* Desktop Nav */}
@@ -83,13 +78,13 @@ export default function Navbar() {
             {/* CTA */}
             <div className="hidden lg:flex items-center">
               <motion.a
-                href="tel:+998901234567"
+                href="tel:+998906304008"
                 className="flex items-center gap-2 bg-[#E53935] hover:bg-[#C62828] text-white px-5 py-2.5 rounded-xl font-semibold text-sm transition-colors duration-200 shadow-lg shadow-red-900/30"
                 whileHover={{ scale: 1.03, y: -1 }}
                 whileTap={{ scale: 0.97 }}
               >
                 <Phone className="w-4 h-4" />
-                +998 90 123 45 67
+                +998 90 630 40 08
               </motion.a>
             </div>
 
@@ -132,7 +127,7 @@ export default function Navbar() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
-                href="tel:+998901234567"
+                href="tel:+998906304008"
                 className="flex items-center gap-2 bg-[#E53935] text-white px-8 py-4 rounded-xl font-bold text-lg mt-4"
               >
                 <Phone className="w-5 h-5" />

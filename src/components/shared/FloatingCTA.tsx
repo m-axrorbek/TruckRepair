@@ -32,14 +32,14 @@ export default function FloatingCTA() {
                 className="flex flex-col gap-3"
               >
                 <a
-                  href="tel:+998901234567"
+                  href="tel:+998906304008"
                   className="flex items-center gap-3 glass text-white px-5 py-3 rounded-2xl font-semibold hover:bg-white/10 transition-colors shadow-2xl"
                 >
                   <Phone className="w-4 h-4 text-[#E53935]" />
                   <span className="text-sm">Qo&apos;ng&apos;iroq</span>
                 </a>
                 <a
-                  href="https://t.me/usta_xonasi"
+                  href="https://t.me/mahammadov_a"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 glass text-white px-5 py-3 rounded-2xl font-semibold hover:bg-white/10 transition-colors shadow-2xl"
